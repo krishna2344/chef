@@ -24,7 +24,8 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus-software
-  revision: a6f5d260b34c5a19fb2ef873ab3216c7bab0ef6f
+  revision: f3bf06d09608c2a75be3aa57220b4ee92c3024a4
+  branch: lcg/remove-iconv
   specs:
     omnibus-software (4.0.0)
       chef-sugar (>= 3.4.0)
@@ -265,4 +266,4 @@ DEPENDENCIES
   winrm-fs (~> 1.0)
 
 BUNDLED WITH
-   1.12.5
+   1.13.4
