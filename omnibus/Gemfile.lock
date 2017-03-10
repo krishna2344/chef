@@ -24,7 +24,7 @@ GIT
 
 GIT
   remote: https://github.com/chef/omnibus-software
-  revision: f3bf06d09608c2a75be3aa57220b4ee92c3024a4
+  revision: 7cf5c9adabc2b9babe035f8d57b9ec5742d1a662
   branch: lcg/remove-iconv
   specs:
     omnibus-software (4.0.0)
@@ -38,13 +38,13 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     artifactory (2.7.0)
     awesome_print (1.7.0)
-    aws-sdk (2.8.2)
-      aws-sdk-resources (= 2.8.2)
-    aws-sdk-core (2.8.2)
+    aws-sdk (2.8.5)
+      aws-sdk-resources (= 2.8.5)
+    aws-sdk-core (2.8.5)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.8.2)
-      aws-sdk-core (= 2.8.2)
+    aws-sdk-resources (2.8.5)
+      aws-sdk-core (= 2.8.5)
     aws-sigv4 (1.0.0)
     berkshelf (4.3.5)
       addressable (~> 2.3, >= 2.3.4)
@@ -118,7 +118,7 @@ GEM
       test-kitchen (~> 1.4)
     libyajl2 (1.2.0)
     little-plugger (1.1.4)
-    logging (2.1.0)
+    logging (2.2.0)
       little-plugger (~> 1.1)
       multi_json (~> 1.10)
     method_source (0.8.2)
